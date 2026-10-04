@@ -16,7 +16,7 @@
 
 [中文](#-中文) · [English](#-english) · [效果展示 Showcase](#-效果展示--showcase) · [Skills](#-skills--技能列表) · [Star History](#-star-history)
 
-<a href="#-效果展示--showcase"><img src="https://upload.maynor1024.live/file/1791116580042_ecomskills-gallery-wall.webp" width="900" alt="Gallery wall: one product photo in, Amazon white-background main image, lifestyle scene, infographic, Xiaohongshu cover, sale banner and on-model try-on out — real GPT Image 2.5 outputs"></a>
+<a href="#-效果展示--showcase"><img src="https://upload.maynor1024.live/file/1791116626949_ecomskills-gallery-wall.jpg" width="900" alt="Gallery wall: one product photo in, Amazon white-background main image, lifestyle scene, infographic, Xiaohongshu cover, sale banner and on-model try-on out — real GPT Image 2.5 outputs"></a>
 
 <sub>↑ 全部是本仓库 skill 的真实输出（GPT Image 2.5，未 PS） · All real outputs from these skills, no retouching</sub>
 
