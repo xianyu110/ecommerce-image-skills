@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-image-skills",
+  "owner": {
+    "name": "xianyu110",
+    "url": "https://github.com/xianyu110"
+  },
+  "metadata": {
+    "description": "12 Agent Skills for ecommerce product images with GPT Image 2.5 (Flare / Sunburst)",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ecommerce-image-skills",
+      "description": "Amazon white-background main images, lifestyle scenes, try-on, infographics, A+, size charts, multi-angle sets, sale banners, batch background swap, Xiaohongshu covers, Taobao detail pages and a listing orchestrator.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/amazon-a-plus",
+        "./skills/amazon-white-background",
+        "./skills/batch-background-swap",
+        "./skills/ecommerce-listing-suite",
+        "./skills/lifestyle-scene",
+        "./skills/model-try-on",
+        "./skills/multi-angle-set",
+        "./skills/sale-banner",
+        "./skills/selling-point-infographic",
+        "./skills/size-chart",
+        "./skills/taobao-detail-long-image",
+        "./skills/xiaohongshu-cover"
+      ]
+    }
+  ]
+}
