@@ -198,6 +198,10 @@ New platform specs, better templates, more scripts — PRs welcome. Please keep 
 - [awesome-gptimage2](https://github.com/xianyu110/awesome-gptimage2) — GPT Image 2 中文提示词实战手册
 - [gptimage2.asia](https://gptimage2.asia/ecommerce?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=related) — run GPT Image 2.5 online
 
+## 🔗 友情链接 / Friends
+
+- [LINUX DO](https://linux.do) — 新的理想型社区 / A new ideal community
+
 ## License
 
 MIT © xianyu110. Platform rules change — always double-check the current seller-centre guidelines before uploading.
