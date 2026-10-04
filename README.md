@@ -223,6 +223,9 @@ New platform specs, better templates, more scripts — PRs welcome. Please keep 
 
 ## Related
 
+- [ecommerce-video-skills](https://github.com/xianyu110/ecommerce-video-skills) — 姊妹仓库：电商短视频 Skills（主图转视频 · 钩子脚本 · ffmpeg 自动成片）
+- [brand-ip-kit-skills](https://github.com/xianyu110/brand-ip-kit-skills) — 品牌 IP 视觉套件 Skills（IP 形象 · Logo · VI · 包装 · 表情包）
+- [golive-china-skills](https://github.com/xianyu110/golive-china-skills) — 国内上线 Skills（ICP 备案 · 微信/支付宝支付 · 小程序 · 隐私合规）
 - [awesome-gpt-image2.5](https://github.com/xianyu110/awesome-gpt-image2.5) — GPT Image 2.5 prompt gallery (Flare · Sunburst · Sketch)
 - [awesome-gptimage2](https://github.com/xianyu110/awesome-gptimage2) — GPT Image 2 中文提示词实战手册
 - [gptimage2.asia](https://gptimage2.asia/ecommerce?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=related) — run GPT Image 2.5 online
