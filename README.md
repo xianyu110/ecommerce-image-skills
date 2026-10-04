@@ -11,9 +11,29 @@
 [![Cursor](https://img.shields.io/badge/Cursor-ready-2563eb)](#-安装)
 [![GPT Image 2.5](https://img.shields.io/badge/GPT%20Image%202.5-Flare%20%2F%20Sunburst-0d9488)](#模型选择--model-routing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/xianyu110/ecommerce-image-skills?style=social)](https://github.com/xianyu110/ecommerce-image-skills/stargazers)
 [![Try online](https://img.shields.io/badge/Try%20online-gptimage2.asia-34d399)](https://gptimage2.asia/ecommerce?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=badge)
 
-[中文](#-中文) · [English](#-english) · [效果展示 Showcase](#-效果展示--showcase) · [Skills](#-skills--技能列表)
+[中文](#-中文) · [English](#-english) · [效果展示 Showcase](#-效果展示--showcase) · [Skills](#-skills--技能列表) · [Star History](#-star-history)
+
+<a href="#-效果展示--showcase"><img src="https://upload.maynor1024.live/file/1791116580042_ecomskills-gallery-wall.webp" width="900" alt="Gallery wall: one product photo in, Amazon white-background main image, lifestyle scene, infographic, Xiaohongshu cover, sale banner and on-model try-on out — real GPT Image 2.5 outputs"></a>
+
+<sub>↑ 全部是本仓库 skill 的真实输出（GPT Image 2.5，未 PS） · All real outputs from these skills, no retouching</sub>
+
+### ⚡ 一行安装 / One-line install
+
+```bash
+npx skills add xianyu110/ecommerce-image-skills
+```
+
+<sub>或 / or：Claude Code 里 `/plugin marketplace add xianyu110/ecommerce-image-skills` · 手动复制见 [安装](#-安装) / manual copy: [Install](#install)</sub>
+
+<img src="https://upload.maynor1024.live/file/1791116577817_ecomskills-before-after.gif" width="760" alt="Before → after slideshow: casual phone photo of a bottle and a flat-lay hoodie turned into six platform-ready ecommerce images">
+
+<sub>Before → After：同一张随手拍 → 6 种平台图 · one casual photo → six platform-ready images</sub>
+
+**如果对你有用，欢迎点个 ⭐ Star，让更多卖家看到。**<br>
+**If this saves you a designer's afternoon, a ⭐ helps others find it.**
 
 </div>
 
@@ -84,6 +104,15 @@ mkdir -p .cursor/skills && cp -r skills/* .cursor/skills/
 | 新场景、背景、版式、快速多版本 | 必须保留 Logo / 标签 / 小字 |
 | 文生图概念图 | 局部编辑：换背景、换色、去杂物 |
 | 草稿供挑选 | 最终主图、文字密集的信息图 / 尺寸表 |
+
+### 🙋 没有 Claude / API？ / No Claude or API key?
+
+这些 skill 跑在 Claude Code / Codex / Cursor 等 agent 里；用脚本出图时需要一个 OpenAI 兼容接口。还没有的话：
+
+- **方法一 · Claude 国内镜像站**：`https://claude-opus.top/` —— 国内直接使用 Claude
+- **方法二 · 一站式 API**：`https://tryallapi.com/register?aff=5A6A` —— Claude / GPT / Gemini 一个 Key 全搞定，`GPTIMAGE_BASE_URL=https://tryallapi.com/v1` 即可给 `scripts/generate.py` 出图
+
+<sub>Need a Claude account or an OpenAI-compatible key? Option 1: Claude mirror for mainland China `https://claude-opus.top/` · Option 2: one key for Claude / GPT / Gemini `https://tryallapi.com/register?aff=5A6A`. Any OpenAI-compatible endpoint works — these are just convenient options.</sub>
 
 ---
 
@@ -202,6 +231,19 @@ New platform specs, better templates, more scripts — PRs welcome. Please keep 
 
 - [LINUX DO](https://linux.do) — 新的理想型社区 / A new ideal community
 
+## ⭐ Star History
+
+<a href="https://star-history.com/#xianyu110/ecommerce-image-skills&amp;Date"><img src="https://api.star-history.com/svg?repos=xianyu110/ecommerce-image-skills&amp;type=Date" width="640" alt="Star History Chart"></a>
+
 ## License
 
 MIT © xianyu110. Platform rules change — always double-check the current seller-centre guidelines before uploading.
+
+---
+
+<div align="center">
+
+**关于作者 / About** — 我是 MaynorAI 团队，分享 AI 编程、AI SaaS 工具出海、一人团队搭建经验。<br>
+<sub>We're the MaynorAI team, sharing AI coding, taking AI SaaS tools global, and building as a one-person team.</sub>
+
+</div>
