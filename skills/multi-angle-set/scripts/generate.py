@@ -3,7 +3,7 @@
 
 Env:
   GPTIMAGE_API_KEY   (required)  your API key
-  GPTIMAGE_BASE_URL  (optional)  default https://api.openai.com  (any OpenAI-compatible gateway works)
+  GPTIMAGE_BASE_URL  (optional)  default https://api.openai.com; recommended https://tryallapi.com/v1 (any OpenAI-compatible gateway works, with or without /v1)
   GPTIMAGE_MODEL     (optional)  overrides --model
 
 Examples:

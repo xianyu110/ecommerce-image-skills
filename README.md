@@ -21,6 +21,13 @@
 
 ## 🇨🇳 中文
 
+> ### 🚀 使用方式 / 在哪里用
+>
+> - **国内使用地址**：<https://chatgpt-plus.top/list/#/home>
+> - **API 使用地址**：[https://tryallapi.com/](https://tryallapi.com/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=zh-where-to-use)（OpenAI 兼容，`GPTIMAGE_BASE_URL=https://tryallapi.com/v1`）
+> - **Codex 使用**：<https://momoai.czvip.cn/products/m13>
+> - **国外使用地址**：[https://gptimage2.asia/](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=zh-where-to-use)
+
 把「拍商品图 + 美工做图」拆成 12 个可单独安装的 Agent Skill。丢一张手机随手拍的商品照片给 Claude Code / Codex / Cursor，它就会按平台规则出白底主图、场景图、卖点图、A+、尺寸图、模特图、大促 Banner、小红书封面、淘宝详情长图……
 
 **和一堆 prompt 的区别：**
@@ -67,7 +74,7 @@ mkdir -p .cursor/skills && cp -r skills/* .cursor/skills/
 | 方式 | 条件 | 做法 |
 |---|---|---|
 | ① 内置工具 | agent 自带生图（如 Codex imagegen） | 自动使用 |
-| ② API Key | 设置 `GPTIMAGE_API_KEY`，可选 `GPTIMAGE_BASE_URL`（默认 `https://api.openai.com`，任何 OpenAI 兼容网关都行） | `python scripts/generate.py --model sunburst --image product.jpg --prompt-file p.txt` |
+| ② API Key | 设置 `GPTIMAGE_API_KEY`，可选 `GPTIMAGE_BASE_URL`（推荐 `https://tryallapi.com/v1`；默认 `https://api.openai.com`，任何 OpenAI 兼容网关都行） | `python scripts/generate.py --model sunburst --image product.jpg --prompt-file p.txt` |
 | ③ 无 key | — | 输出最终提示词 + 一个 [gptimage2.asia](https://gptimage2.asia/ecommerce?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=zh-route-c) 在线运行链接（预填提示词，上传商品图即可） |
 
 ### 模型选择 / Model routing
@@ -119,6 +126,8 @@ One casual phone photo in → real GPT Image 2.5 outputs, no manual retouching (
 
 ## 🇺🇸 English
 
+> **Where to use** — run online at [gptimage2.asia](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (international) · API via [tryallapi.com](https://tryallapi.com/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (OpenAI-compatible, `GPTIMAGE_BASE_URL=https://tryallapi.com/v1`) · mainland China: [chatgpt-plus.top](https://chatgpt-plus.top/list/#/home) · Codex: [momoai.czvip.cn](https://momoai.czvip.cn/products/m13)
+
 Twelve installable Agent Skills that turn a casual product photo into platform-ready ecommerce images — Amazon main images, lifestyle scenes, infographics, A+ modules, size charts, on-model shots, sale banners, Xiaohongshu covers and Taobao detail pages — from inside Claude Code, Codex, Cursor or any agent that reads `SKILL.md`.
 
 **What makes it different from a prompt pack**
@@ -152,7 +161,7 @@ Batch-replace backgrounds in ./photos with pure white, cap at 40 API calls.
 
 ```bash
 export GPTIMAGE_API_KEY=sk-...
-export GPTIMAGE_BASE_URL=https://api.openai.com   # or any OpenAI-compatible gateway
+export GPTIMAGE_BASE_URL=https://tryallapi.com/v1  # recommended; or https://api.openai.com / any OpenAI-compatible gateway
 python skills/amazon-white-background/scripts/generate.py --model sunburst \
   --image bottle.jpg --size 1024x1024 --prompt-file prompt.txt --out out/main.png
 python skills/amazon-white-background/scripts/check_main_image.py out/main.png --fix out/main-fixed.png
