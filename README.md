@@ -45,7 +45,7 @@ npx skills add xianyu110/ecommerce-image-skills
 >
 > - **国内使用地址**：<https://chatgpt-plus.top/list/#/home>
 > - **API 使用地址**：[https://tryallapi.com/](https://tryallapi.com/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=zh-where-to-use)（OpenAI 兼容，`GPTIMAGE_BASE_URL=https://tryallapi.com/v1`）
-> - **Codex 使用**：<https://momoai.czvip.cn/products/m13>
+> - **Codex 使用**：<https://wzyp.cn/item/aus7lo>
 > - **国外使用地址**：[https://gptimage2.asia/](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=zh-where-to-use)
 
 把「拍商品图 + 美工做图」拆成 12 个可单独安装的 Agent Skill。丢一张手机随手拍的商品照片给 Claude Code / Codex / Cursor，它就会按平台规则出白底主图、场景图、卖点图、A+、尺寸图、模特图、大促 Banner、小红书封面、淘宝详情长图……
@@ -155,7 +155,7 @@ One casual phone photo in → real GPT Image 2.5 outputs, no manual retouching (
 
 ## 🇺🇸 English
 
-> **Where to use** — run online at [gptimage2.asia](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (international) · API via [tryallapi.com](https://tryallapi.com/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (OpenAI-compatible, `GPTIMAGE_BASE_URL=https://tryallapi.com/v1`) · mainland China: [chatgpt-plus.top](https://chatgpt-plus.top/list/#/home) · Codex: [momoai.czvip.cn](https://momoai.czvip.cn/products/m13)
+> **Where to use** — run online at [gptimage2.asia](https://gptimage2.asia/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (international) · API via [tryallapi.com](https://tryallapi.com/?utm_source=github&utm_medium=readme&utm_campaign=ecommerce-image-skills&utm_content=en-where-to-use) (OpenAI-compatible, `GPTIMAGE_BASE_URL=https://tryallapi.com/v1`) · mainland China: [chatgpt-plus.top](https://chatgpt-plus.top/list/#/home) · Codex: [momoai.czvip.cn](https://wzyp.cn/item/aus7lo)
 
 Twelve installable Agent Skills that turn a casual product photo into platform-ready ecommerce images — Amazon main images, lifestyle scenes, infographics, A+ modules, size charts, on-model shots, sale banners, Xiaohongshu covers and Taobao detail pages — from inside Claude Code, Codex, Cursor or any agent that reads `SKILL.md`.
 
